@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a098cb04-00d5-483b-9a64-9fd3ac3cae2f" name="host">
+        <fileTransfer rootFolder="/root/go/ginChat" accessType="SFTP" host="47.74.227.60" port="22" sshConfigId="57e5915e-1d35-4f78-8925-354ce9be849e" sshConfig="root@47.74.227.60:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -23,7 +23,6 @@ func Init(startTime string, machineID int64) (err error) {
 		fmt.Println(err)
 		return
 	}
-
 	return
 }
 

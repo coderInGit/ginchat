@@ -35,8 +35,9 @@ type Node struct {
 	GroupSets set.Interface
 }
 
+// todo http://www.jsons.cn/websocket
 // 映射关系
-var clientMap map[int64]*Node = make(map[int64]*Node, 0)
+var clientMap = make(map[int64]*Node, 0)
 
 // 读写锁
 var rwLocker sync.RWMutex
